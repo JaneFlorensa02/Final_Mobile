@@ -7,5 +7,5 @@ import kotlinx.serialization.Serializable
 @Serializable
 data class GetAboutFoodResponse(
     @SerialName("categories")
-    val categories: Article?,
+    val categories: List<Article>?,
 )
